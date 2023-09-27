@@ -39,6 +39,10 @@ Before you begin, make sure you have the following installed:
    MYSQL_DB=your_database
    ```
 
+   5. for run the sql command
+      docker run -d -p 3360:3306 --name mysql -e MYSQL_ROOT_PASSWORD=admin mysql:5.7
+
+
 ## Usage
 
 1. Start the containers using Docker Compose:
